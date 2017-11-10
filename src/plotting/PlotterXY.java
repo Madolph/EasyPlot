@@ -1,4 +1,4 @@
-package plotXY;
+package plotting;
 
 import java.util.concurrent.CountDownLatch;
 import com.sun.javafx.application.PlatformImpl;
