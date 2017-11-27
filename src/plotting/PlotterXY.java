@@ -16,7 +16,6 @@ import javafx.stage.Stage;
  * @author Raddock
  *
  */
-@SuppressWarnings("restriction")
 public class PlotterXY extends Application implements Runnable{
 	
 	XYChart.Series<Number, Number>[] mSeries;
