@@ -1,5 +1,6 @@
 package plotting;
 
+import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import com.sun.javafx.application.PlatformImpl;
 import javafx.application.Application;
@@ -46,9 +47,9 @@ public class PlotterXY extends Application implements Runnable{
 	 * @param fxOn			indicates if JFx is already running
 	 * @param plotTitle		the title of the plot
 	 * @param windowTitle	the title of the new window
-	 * @param titleX		the title of the X-Axis
+	 * @param titleX			the title of the X-Axis
 	 * @param Tags			the titles of the Y-series
-	 * @param height		the height of the window
+	 * @param height			the height of the window
 	 * @param width			the width of the window
 	 */
     public void initializePlotter(boolean fxOn, 
