@@ -1,6 +1,5 @@
 package plotting;
 
-import java.util.List;
 import java.util.concurrent.CountDownLatch;
 import com.sun.javafx.application.PlatformImpl;
 import javafx.application.Application;
