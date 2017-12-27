@@ -3,6 +3,16 @@
  *
  * This generated file contains a sample Java Library project to get you started.
 */
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+plugins {
+    id "com.jfrog.bintray" version "1.2"
+}
+
 
 apply plugin: 'java-library'
 apply plugin: 'java'
@@ -29,14 +39,9 @@ sourceSets {
     }
 } 
 
-buildscript {
-  repositories {
-    mavenCentral()
-  }
-}
 
 group = 'NeatoPlot'
-
+version = "0.1.0-RH"
 
 // In this section you declare where to find the dependencies of your project
 repositories 
@@ -99,6 +104,7 @@ publishing {
 }
 
 
+apply from: 'gradle/bintrayUpload.gradle'
 //***********************************************************************************
 // GIT HOOKS:
 
